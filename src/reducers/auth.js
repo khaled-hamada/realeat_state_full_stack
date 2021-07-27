@@ -6,11 +6,11 @@ import {
     LOGOUT
 } from '../actions/types';
 
-// let token = localStorage.getItem('token');
-// let isAuth = token? true:false;
+let token = localStorage.getItem('token');
+let isAuth = token? true:false;
 const initialState = {
     token: localStorage.getItem('token'),
-    isAuthenticated:  false,
+    isAuthenticated:  isAuth,
     loading: false
 };
 
