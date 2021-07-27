@@ -1,13 +1,26 @@
 Realest Estate
 -----------------------------
-This is a large project that shows how to implement a real estate application with a variety of different features. You see an approach to implementing authentication using JSON Web Tokens with the Django Rest Framework Simple JWT package. You see how to implement a contact form, how to implement pagination, how to upload photos on the Django Admin, how to customize the Django Admin, and more.
+This is a large project that shows how to implement a real estate application with a variety of different features.
+for the backend i have used :
+Django, Django rest framework , PostgreSQL, Simple JWT package for authentication
+
+for the frontent i have used :
+React, Redux, Sass , create pagination using both django reat and react and many more ... 
+
+-----
+
+The application has many many features and i will add more ISA 
+here are the main repos for both backend and front :
+backend : https://github.com/khaled-hamada/realest_state_backend
+frontend : https://github.com/khaled-hamada/realest_state_frontend
+------
 
 In order to test out this project, follow these steps:
 
 clone the repository
   run: npm install, this will install the required frontend packages
   
-  run: npm run build, this will make the production react build folder
+
   
   run: python3 -m venv venv
   
